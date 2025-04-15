@@ -1,7 +1,30 @@
 # Modular Text Summarization Pipeline
 
 A modular, class-based Python pipeline for text summarization using self-hosted transformer models (no external APIs).  
-This project demonstrates best practices in code structure, evaluation, and dataset analysis.
+This project demonstrates best practices in code structure, evaluation, and dataset analysis, and is designed for both research and production use.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Architecture Overview](#architecture-overview)
+  - [Component Diagram](#component-diagram)
+  - [Directory Structure](#directory-structure)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+  - [Summarize a Single Text](#summarize-a-single-text)
+  - [Full Dataset Evaluation](#full-dataset-evaluation)
+- [Inputs and Outputs](#inputs-and-outputs)
+- [Logging](#logging)
+- [Evaluation & Metrics](#evaluation--metrics)
+- [Design Choices & Insights](#design-choices--insights)
+- [Troubleshooting & FAQ](#troubleshooting--faq)
+- [Limitations & Next Steps](#limitations--next-steps)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 ---
 
@@ -13,13 +36,51 @@ This project demonstrates best practices in code structure, evaluation, and data
 - **Evaluation**: Automatic ROUGE scoring, best/worst example analysis, and output saving.
 - **CLI**: Summarize a single text or run full dataset evaluation from the command line.
 - **Extensible**: Easily swap models, datasets, or add new evaluation metrics.
+- **Logging**: Detailed logs for every step, including errors and performance.
+- **Configurable**: All parameters are managed via a YAML config file.
 
 ---
+
+## Architecture Overview
+
+This project is built with a focus on modularity, maintainability, and extensibility. Each major function is encapsulated in its own class, and the pipeline is orchestrated through a central runner.
+
+### Component Diagram
+
+```mermaid
+graph TD
+    A[main.py] --> B[Pipeline]
+    B --> C[DataLoader]
+    B --> D[SummarizationModel]
+    B --> E[Evaluator]
+    C --> F[HuggingFace Datasets]
+    D --> G[HuggingFace Transformers]
+    E --> H[ROUGE Metrics]
+    B --> I[Logger]
+    B --> J[Config Manager]
+```
 
 ## Directory Structure
 
+text-summarization-pipeline/
+├── config/
+│   └── config.yaml
+├── src/
+│   ├── data_loader.py
+│   ├── model.py
+│   ├── pipeline.py
+│   ├── evaluator.py
+│   └── utils/
+│       ├── logger.py
+│       └── config_manager.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── output/
+    ├── metrics.json
+    ├── examples.json
+    └── examples.txt
 
----
 
 ## Quickstart
 
