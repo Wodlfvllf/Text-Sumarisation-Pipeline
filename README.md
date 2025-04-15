@@ -99,8 +99,9 @@ The pipeline will automatically download the [SAMSum dataset](https://huggingfac
 ```python main.py --text "Alice: Hi Bob! How are you? Bob: I'm good, thanks! And you?" --output_dir output```
 
 #### Full Dataset Evaluation
-
-```python main.py --config config/config.yaml --output_dir output```
+```
+python main.py --config config/config.yaml --output_dir output
+```
 ---
 
 ## Output
