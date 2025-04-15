@@ -61,7 +61,7 @@ graph TD
 ```
 
 ## Directory Structure
-```mermaid
+```
 text-summarization-pipeline/
 ├── config/
 │   └── config.yaml
@@ -81,7 +81,6 @@ text-summarization-pipeline/
     ├── examples.json
     └── examples.txt
 ```
-
 ## Quickstart
 
 ### 1. Install Dependencies
