@@ -61,7 +61,7 @@ graph TD
 ```
 
 ## Directory Structure
-
+```mermaid
 text-summarization-pipeline/
 ├── config/
 │   └── config.yaml
@@ -80,7 +80,7 @@ text-summarization-pipeline/
     ├── metrics.json
     ├── examples.json
     └── examples.txt
-
+```
 
 ## Quickstart
 
