@@ -1,0 +1,34 @@
+=== Best Example ===
+Input: Ernest: hey Mike, did you park your car on our street?
+Mike: no, took it into garage today
+Ernest: ok good
+Mike: why?
+Ernest: someone just crashed into a red honda looking just like yours
+Mike: lol lucky me
+Reference: Mike took his car into garage today. Ernest is relieved as someone had just crashed into a red Honda which looks like Mike's. 
+Prediction: Mike: No, took it into garage today. Ernest: Someone just crashed into a red honda looking just like yours. Mike: lol lucky me.
+ROUGE-L: 0.6809
+
+=== Worst Example ===
+Input: Jayden: But I don't need kids. Kids means over. At least for a woman
+Brennan: Over what ?
+Jayden: The end of normal life. Being pregnant, suffering because of this etc
+Brennan: Hmm so I need to look for another mother to my kids then. Haha
+Jayden: Being obligated to be with the. 24h. Men have only sex and they wait for kids while women suffer
+Brennan: I don't agree...
+Jayden: I wish I could do the same. Then probably i would say the same like u.
+Brennan: Guys like me would be there through it all to reduce the suffering
+Jayden: Physical suffering. No one can do anything with this. I wish I could just have sex and wait for a baby while having a normal life. Not getting fat, having the same body, the same breast and not disgusting ... Not feeling sick, not having pain, being able to do every day stuff even like walking...
+Brennan: It's gonna happen eventually
+Jayden: I was I'm a store, behind me there was a pregnant woman, she dropped some money and she couldn't even take them from the floor... I had to help her
+Brennan: That's because she's about to give birth
+Jayden: I hope that maybe soon they will be possible to have a child without being pregnant. Yes! And she's suffering
+Brennan: Any I'm sorry for feeding you with my bullshit
+Jayden: While a man is doing his normal stuff. U mean the conversation?
+Brennan: I hope you find a guy that can give you the sex you want and not get pregnant
+Jayden: Would be awesome
+Brennan: I'm gonna go to sleep now. Good night
+Jayden: I said I don't want to have any children now! Maybe in the future when I have a good job, I'm financially independent. Good night
+Reference: Jayden explains Brennan why she doesn't want to be pregnant.
+Prediction: Jayden: I wish I could just have sex and wait for a baby while having a normal life. Men have only sex and they wait for kids while women suffer. Jayden: Kids means over. At least for a woman.
+ROUGE-L: 0.0400

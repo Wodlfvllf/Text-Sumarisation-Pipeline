@@ -1,0 +1,22 @@
+{
+  "best": {
+    "input": "Ernest: hey Mike, did you park your car on our street?\r\nMike: no, took it into garage today\r\nErnest: ok good\r\nMike: why?\r\nErnest: someone just crashed into a red honda looking just like yours\r\nMike: lol lucky me",
+    "reference": "Mike took his car into garage today. Ernest is relieved as someone had just crashed into a red Honda which looks like Mike's. ",
+    "prediction": "Mike: No, took it into garage today. Ernest: Someone just crashed into a red honda looking just like yours. Mike: lol lucky me.",
+    "rouge_scores": {
+      "rouge1": 0.6808510638297872,
+      "rouge2": 0.3555555555555555,
+      "rougeL": 0.6808510638297872
+    }
+  },
+  "worst": {
+    "input": "Jayden: But I don't need kids. Kids means over. At least for a woman\r\nBrennan: Over what ?\r\nJayden: The end of normal life. Being pregnant, suffering because of this etc\r\nBrennan: Hmm so I need to look for another mother to my kids then. Haha\r\nJayden: Being obligated to be with the. 24h. Men have only sex and they wait for kids while women suffer\r\nBrennan: I don't agree...\r\nJayden: I wish I could do the same. Then probably i would say the same like u.\r\nBrennan: Guys like me would be there through it all to reduce the suffering\r\nJayden: Physical suffering. No one can do anything with this. I wish I could just have sex and wait for a baby while having a normal life. Not getting fat, having the same body, the same breast and not disgusting ... Not feeling sick, not having pain, being able to do every day stuff even like walking...\r\nBrennan: It's gonna happen eventually\r\nJayden: I was I'm a store, behind me there was a pregnant woman, she dropped some money and she couldn't even take them from the floor... I had to help her\r\nBrennan: That's because she's about to give birth\r\nJayden: I hope that maybe soon they will be possible to have a child without being pregnant. Yes! And she's suffering\r\nBrennan: Any I'm sorry for feeding you with my bullshit\r\nJayden: While a man is doing his normal stuff. U mean the conversation?\r\nBrennan: I hope you find a guy that can give you the sex you want and not get pregnant\r\nJayden: Would be awesome\r\nBrennan: I'm gonna go to sleep now. Good night\r\nJayden: I said I don't want to have any children now! Maybe in the future when I have a good job, I'm financially independent. Good night",
+    "reference": "Jayden explains Brennan why she doesn't want to be pregnant.",
+    "prediction": "Jayden: I wish I could just have sex and wait for a baby while having a normal life. Men have only sex and they wait for kids while women suffer. Jayden: Kids means over. At least for a woman.",
+    "rouge_scores": {
+      "rouge1": 0.04,
+      "rouge2": 0.0,
+      "rougeL": 0.04
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# config/config.yaml
+dataset:
+  name: "samsum"
+  input_column: "dialogue"
+  target_column: "summary"
+
+model:
+  name: "facebook/bart-large-cnn"  # Alternative: "t5-base" or "google/pegasus-cnn_dailymail"
+  save_dir: "models/saved_models"
+
+preprocessing:
+  max_input_length: 1024
+  max_target_length: 128
+
+generation:
+  max_length: 150
+  min_length: 30
+  do_sample: false
+  num_beams: 4
+  early_stopping: true
+
+pipeline:
+  run_evaluation: true
+  
+evaluation:
+  num_samples: 100
+  
+logging:
+  log_dir: "logs"
+  log_level: "INFO"

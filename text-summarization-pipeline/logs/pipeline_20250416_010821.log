@@ -1,0 +1,12 @@
+2025-04-16 01:08:21,850 - __main__ - INFO - Starting summarization pipeline with config: config/config.yaml
+2025-04-16 01:08:21,850 - absl - INFO - Using default tokenizer.
+2025-04-16 01:08:21,850 - __main__ - INFO - Running in full pipeline mode
+2025-04-16 01:08:21,850 - src.pipeline - INFO - Running complete summarization pipeline
+2025-04-16 01:08:21,850 - src.pipeline - INFO - Initializing pipeline components
+2025-04-16 01:08:21,850 - src.data_loader - INFO - Loading dataset: samsum
+2025-04-16 01:08:36,906 - src.data_loader - INFO - Dataset loaded successfully with 14732 training samples
+2025-04-16 01:08:36,906 - src.data_loader - INFO - Initializing tokenizer for model: facebook/bart-large-cnn
+2025-04-16 01:08:38,259 - src.model - INFO - Loading model: facebook/bart-large-cnn
+2025-04-16 01:08:44,957 - src.model - INFO - Model loaded successfully on device: 0
+2025-04-16 01:08:44,957 - src.data_loader - INFO - Preparing dataset with preprocessing
+2025-04-16 01:08:45,844 - src.pipeline - INFO - Running batch inference on 100 samples from test split

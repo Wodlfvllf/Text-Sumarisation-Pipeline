@@ -1,0 +1,119 @@
+2025-04-16 01:23:30,275 - __main__ - INFO - Starting summarization pipeline with config: config/config.yaml
+2025-04-16 01:23:30,275 - absl - INFO - Using default tokenizer.
+2025-04-16 01:23:30,275 - __main__ - INFO - Running in full pipeline mode
+2025-04-16 01:23:30,275 - src.pipeline - INFO - Starting pipeline execution
+2025-04-16 01:23:30,275 - src.pipeline - INFO - Initializing pipeline components
+2025-04-16 01:23:30,275 - src.data_loader - INFO - Loading dataset: samsum
+2025-04-16 01:23:44,720 - src.data_loader - INFO - Dataset loaded successfully with 14732 training samples
+2025-04-16 01:23:44,721 - src.data_loader - INFO - Initializing tokenizer for model: facebook/bart-large-cnn
+2025-04-16 01:23:46,085 - src.model - INFO - Loading model: facebook/bart-large-cnn
+2025-04-16 01:23:52,382 - src.model - INFO - Model loaded successfully on device: 0
+2025-04-16 01:23:52,382 - src.pipeline - INFO - Running batch inference on 100 samples
+2025-04-16 01:23:52,384 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:54,415 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:55,326 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:56,076 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:56,682 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:57,553 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:58,735 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:23:59,553 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:00,385 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:00,914 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:01,608 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:02,331 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:02,857 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:03,459 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:04,363 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:05,078 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:05,906 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:06,677 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:07,469 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:08,386 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:08,974 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:09,874 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:10,663 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:11,671 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:12,799 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:13,806 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:15,231 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:15,939 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:16,611 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:17,303 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:18,214 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:18,951 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:19,788 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:20,543 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:21,244 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:22,722 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:23,531 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:24,284 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:25,092 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:25,912 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:26,796 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:27,616 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:28,312 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:29,027 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:29,785 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:30,459 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:31,441 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:32,124 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:33,477 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:34,141 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:34,946 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:35,767 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:36,550 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:37,222 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:38,008 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:38,748 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:39,460 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:40,445 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:41,133 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:41,700 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:42,591 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:43,559 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:44,301 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:44,893 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:45,587 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:46,411 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:47,175 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:48,043 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:49,155 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:49,966 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:50,811 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:51,622 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:52,471 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:53,427 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:54,098 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:54,990 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:55,755 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:56,982 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:58,143 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:58,773 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:24:59,803 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:00,411 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:01,122 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:02,177 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:03,075 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:03,786 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:04,766 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:05,463 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:06,561 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:07,450 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:08,266 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:08,933 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:09,929 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:11,108 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:11,814 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:12,348 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:13,054 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:13,607 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:14,372 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:15,188 - src.model - INFO - Generating summary with parameters: {'max_length': 150, 'min_length': 30, 'do_sample': False, 'early_stopping': True}
+2025-04-16 01:25:16,016 - src.pipeline - INFO - Running evaluation
+2025-04-16 01:25:16,016 - src.evaluator - INFO - Calculating evaluation metrics
+2025-04-16 01:25:16,099 - src.evaluator - INFO - Analyzing evaluation results
+2025-04-16 01:25:16,102 - __main__ - INFO - 
+Saved outputs to:
+2025-04-16 01:25:16,102 - __main__ - INFO - - Metrics: outputs/metrics.json
+2025-04-16 01:25:16,102 - __main__ - INFO - - Examples (JSON): outputs/examples.json
+2025-04-16 01:25:16,102 - __main__ - INFO - - Examples (Text): outputs/examples.txt

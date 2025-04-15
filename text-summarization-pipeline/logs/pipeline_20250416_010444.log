@@ -1,0 +1,7 @@
+2025-04-16 01:04:44,199 - __main__ - INFO - Starting summarization pipeline with config: config/config.yaml
+2025-04-16 01:04:44,199 - absl - INFO - Using default tokenizer.
+2025-04-16 01:04:44,199 - __main__ - INFO - Running in single text inference mode
+2025-04-16 01:04:44,199 - src.pipeline - INFO - Initializing pipeline components
+2025-04-16 01:04:44,199 - src.data_loader - INFO - Loading dataset: samsum
+2025-04-16 01:05:01,085 - src.data_loader - ERROR - Error loading dataset: To be able to use samsum, you need to install the following dependency: py7zr.
+Please install it using 'pip install py7zr' for instance.
