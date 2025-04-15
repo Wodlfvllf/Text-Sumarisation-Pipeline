@@ -85,7 +85,7 @@ text-summarization-pipeline/
 
 ### 1. Install Dependencies
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 ### 2. Download the Dataset
@@ -96,7 +96,7 @@ The pipeline will automatically download the [SAMSum dataset](https://huggingfac
 
 #### Summarize a Single Text
 
-python main.py --text "Alice: Hi Bob! How are you? Bob: I'm good, thanks! And you?" --output_dir output
+```python main.py --text "Alice: Hi Bob! How are you? Bob: I'm good, thanks! And you?" --output_dir output```
 
 ---
 
@@ -123,17 +123,13 @@ Edit `config/config.yaml` to change:
 ## Example Results
 
 Evaluation Results:
-
+```
 Average ROUGE-1: 0.3318
-
 Average ROUGE-2: 0.1064
-
 Average ROUGE-L: 0.2456
-
 Average generated summary length: 31.1 words
-
 Average reference summary length: 20.2 words
-
+```
 
 ---
 
